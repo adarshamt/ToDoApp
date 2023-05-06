@@ -31,7 +31,8 @@ function App() {
                   <input className='todoinput' type='text' value={toDo} 
                   onChange={(e)=>settoDo(e.target.value)} placeholder='What to do..?' />
                 
-                  <i className='addButton' onClick={()=>setvalue([...value,{id:Date.now() ,text:toDo}])} 
+                  <i className='addButton'
+                   onClick={()=>setvalue([...value,{id:Date.now() ,text:toDo}])} 
                   class="fa-solid fa-plus"></i>
 
                </div>
