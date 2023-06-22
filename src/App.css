@@ -1,15 +1,24 @@
+body{
+  /* background-image: linear-gradient(red,yellow);
+   */
+   background-image: url(https://images.ctfassets.net/lzny33ho1g45/best-android-to-do-list-apps-p-img/501a7d8823758b5f40362191fe938dfe/file.png?w=1520&fm=jpg&q=30&fit=thumb&h=760);
+   
+   background-repeat: no-repeat;
+   background-size: cover;
+}
 .App {
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 .maindiv{
- margin-top: 50px;
-  width: 300px;
-  height: 400px;
-  background-color: aqua;
-  box-shadow: 0px 0px 40px rgba(252, 153, 5,.5);
+  margin-top: 50px;
+  width: 80%;
+  height: 62%;
+  background-color: rgba(142, 228, 228,.2);
+  box-shadow: 0px 0px 40px rgba(10, 10, 10, 0.5);
   border-radius: 9px;
 }
 .todo{
@@ -33,14 +42,24 @@
 }
 
 .todoinput{
-  width: 235px;
-  border-radius: 7px;
+  text-align: center;
+  width: 82%;
+  
   border: 0px;
   height: 45px;
 }
 .addButton{
-  padding-left: 20px;
+  /* padding-left: 20px;
   width: 20px;
   height: 20px;
-  font-size: 20px;
+  font-size: 20px; */
+ display: flex;
+ align-items: center;
+}
+
+.headingtodo{
+font-family: emoji;
+
+
+
 }
