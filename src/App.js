@@ -33,7 +33,7 @@ function App() {
                 
                   <i className='addButton'
                    onClick={()=>setvalue([...value,{id:Date.now() ,text:toDo}])} 
-                  class="fa-solid fa-plus"></i>
+                  class="fa-solid fa-plus" style={{fontSize:"40px",color:"#fcfc03"}}></i>
 
                </div>
 
