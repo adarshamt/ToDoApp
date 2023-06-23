@@ -1,7 +1,7 @@
 body{
   /* background-image: linear-gradient(red,yellow);
    */
-   background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?cs=srgb&dl=pexels-hasan-albari-1229861.jpg&fm=jpg);
+   background-image: url(https://images.pexels.com/photos/614973/pexels-photo-614973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
    
    background-repeat: no-repeat;
    background-size: cover;
@@ -70,8 +70,9 @@ color: rgb(141, 221, 221);
 
 .todo{
   margin: 3% 13% 3% 10%;
-  background-color: rgba(10, 10, 10, 0.5);
- padding-left: 2%;
+  background-color: rgb(172 129 137 / 50%);
+  padding-left: 2%;
+  color: #5e1d95;
   
 
 }

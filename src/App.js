@@ -22,7 +22,7 @@ function App() {
           <div className='maindiv'>
 
               <div className='headingtodo'>
-                   <h2>To Do</h2>
+                   <h2>To do</h2>
 
 
               </div>
@@ -46,7 +46,7 @@ function App() {
 
                     <div  className='todo'>
  
-                     <h3>{itm.text}</h3>
+                     <h2>{itm.text}</h2>
                      <div className='todo_icon'>
                      <i onClick={()=>DeletHandle(itm.id)} class="fa-solid fa-trash"></i>
                      
